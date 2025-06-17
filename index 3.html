@@ -1,0 +1,152 @@
+
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>fitbycamilo – Dein Fitnesscoach</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      background-color: #000;
+      color: #fff;
+    }
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1rem 2rem;
+      background-color: #111;
+      border-bottom: 1px solid #333;
+    }
+    .logo {
+      font-size: 1.5rem;
+      font-weight: 700;
+      letter-spacing: 1px;
+      display: flex;
+      align-items: center;
+    }
+    nav a {
+      color: #ccc;
+      margin-left: 1.5rem;
+      text-decoration: none;
+      font-weight: 500;
+      transition: color 0.3s;
+    }
+    nav a:hover {
+      color: #fff;
+    }
+    .hero {
+      text-align: center;
+      padding: 5rem 2rem;
+      background: #000;
+      border-bottom: 1px solid #333;
+    }
+    .hero h1 {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+    }
+    .hero p {
+      font-size: 1.25rem;
+      color: #aaa;
+    }
+    .angebot, .meinung, .kontakt, .kalender {
+      padding: 4rem 2rem;
+      text-align: center;
+    }
+    h2 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+    blockquote {
+      font-style: italic;
+      color: #bbb;
+    }
+    cite {
+      display: block;
+      margin-top: 0.5rem;
+      color: #888;
+    }
+    .buttons {
+      display: flex;
+      justify-content: center;
+      gap: 1rem;
+      margin-top: 1rem;
+    }
+    .btn {
+      background: #fff;
+      color: #000;
+      padding: 0.75rem 1.5rem;
+      border-radius: 5px;
+      text-decoration: none;
+      font-weight: 500;
+      transition: background 0.3s, color 0.3s;
+    }
+    .btn:hover {
+      background: #ddd;
+      color: #000;
+    }
+    footer {
+      text-align: center;
+      padding: 2rem;
+      background: #111;
+      color: #555;
+      border-top: 1px solid #333;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">
+      fitbycamilo
+      <svg width="40" height="40" viewBox="0 0 100 100" fill="white" xmlns="http://www.w3.org/2000/svg" style="margin-left: 10px;">
+        <path d="M20,55 C35,50 65,35 90,10 C65,45 30,70 10,60 Z" fill="white"/>
+      </svg>
+    </div>
+    <nav>
+      <a href="#angebot">Coaching</a>
+      <a href="#meinung">Kundenmeinung</a>
+      <a href="#kontakt">Kontakt</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h1>Starte dein Fitnessziel mit fitbycamilo</h1>
+      <p>Dein Personal Coach – modern, effektiv, persönlich.</p>
+    </section>
+
+    <section id="angebot" class="angebot">
+      <h2>Coaching-Angebot</h2>
+      <p>Individuelles Online-Coaching für nur <strong>19,99 €</strong> im Monat.</p>
+    </section>
+
+    <section id="meinung" class="meinung">
+      <h2>Was meine Kunden sagen</h2>
+      <blockquote>
+        „Das Coaching von Camilo hat mein Leben verändert. Ich fühle mich fitter als je zuvor!“<br>
+        <cite>– Lisa M.</cite>
+      </blockquote>
+    </section>
+
+    <section id="kontakt" class="kontakt">
+      <h2>Jetzt Kontakt aufnehmen</h2>
+      <div class="buttons">
+        <a href="https://wa.me/123456789" class="btn">📱 WhatsApp</a>
+        <a href="https://instagram.com/fitbycamilo" class="btn">📷 Instagram</a>
+      </div>
+    </section>
+
+    <section class="kalender">
+      <h2>Buchungskalender</h2>
+      <iframe src="https://calendar.google.com/calendar/embed?src=dein.kalender%40gmail.com" style="border: 0" width="100%" height="400" frameborder="0" scrolling="no"></iframe>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 fitbycamilo – Alle Rechte vorbehalten</p>
+  </footer>
+</body>
+</html>
